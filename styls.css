@@ -1,0 +1,46 @@
+h3 {
+  color: #4e594a;
+}
+.card {
+  background-color: rgba(254, 254, 234, 0.5);
+
+  margin: 25px auto 0;
+}
+.name-list {
+  list-style: none;
+  color: rgb(78, 89, 74);
+}
+.enterprise-name {
+  font-size: 20px;
+}
+.symbol-name {
+  font-size: 17px;
+}
+.display {
+  border: 2px solid rgb(78, 89, 74);
+  border-radius: 10px;
+  background-color: rgb(254, 254, 234);
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+}
+.footer {
+  width: 400px;
+  margin: 0 auto;
+  font-size: small;
+  color: #778288;
+}
+
+#quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin-top: 15px;
+}
+#procent-change {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}

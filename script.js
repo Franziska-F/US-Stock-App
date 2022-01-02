@@ -27,6 +27,10 @@ function tellQuote(response) {
   let newQuote = document.querySelector("#quote");
   let percentChange = document.querySelector("#procent-change");
   newQuote.innerHTML = `${answer} USD`;
+  if (percent < 0) {
+    percentChange.style.color = "red";
+  }
+
   percentChange.innerHTML = `${percent} %`;
 }
 
